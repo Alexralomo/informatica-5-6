@@ -8,7 +8,7 @@ def main():
     # print("hello", end=" ")
     # print(goku)
 
-    # # Concatenation
+    # Concatenation
     # print("hello " + Goku)
 
     # #Formatted String
@@ -18,12 +18,18 @@ def main():
     color= input("Tell me a color:").lower().strip()
     adj=input("tell me an adjetive:")
     goal=input("A goal you would like to achieve:")
-
+    print()
+    print()
     print(f"hello {name}!")
-    print("Esta es tu historia!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-
-    print(f" En mucho tiempo estaba un chico llamado {name}, que le encantava el color {color}, y su mallor birtud es ser {adj}, y su metas es {goal}.")
-    print(f" En mucho tiempo estaba un chico llamado {name}, que le encantava el color {color}, y su mallor birtud es ser {adj}, y su metas es {goal}.").upper()
+    print()
+    print()
+    print()
+    print("Esta es tu historia!!!!!!!!!!")
+    print()
+    print(f" Ase mucho tiempo estaba un chico llamado {name}, que le encantava el color {color}, y su mallor birtud es ser {adj}, y su metas es {goal}.")
+    print()
+    print()
+    print(f" Ase mucho tiempo estaba un chico llamado {name}, que le encantava el color {color}, y su mallor birtud es ser {adj}, y su metas es {goal}.".upper())
 
 
 if __name__== "__main__":
