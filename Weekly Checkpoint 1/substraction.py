@@ -4,7 +4,7 @@ def main():
     print("Vamos a aprender a restar con python")
     print()
     print()
-    print("Regals de usar esta forma de restas, te va a pedir los numero que quieres restar pero de forma separada precuacion no usar el cigno de resta ya lo incluye")
+    print("Reglas de usar esta forma de restas, te va a pedir los numero que quieres restar pero de forma separada precuacion no usar el cigno de resta ya lo incluye")
     print()
     print()
     numero = int(input("pon el primer numero que queres restar:"))
