@@ -12,7 +12,7 @@ def main():
     reais1 = int(reais) *3.28
     print("De reais a pesos compa:", reais1)
 
-    print("todo es en pesos")
+    print("todo omls en pesos")
     print()
     print()
 
