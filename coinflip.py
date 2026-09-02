@@ -2,18 +2,23 @@ import random
 
 def main():
 
-    usario = int(input("elije agila sello:"))
+    coin = ["heads", "tails"]
+    attempts = 10
+    while attempts > 0:
 
 
-    moneda = random.randint (1, 2)
-    print(moneda)
+        flip = random.choice(coin)
+        guess = input("heads or teils?"). strip().lower()
 
-    if moneda ==1:
-        print("sello")
-    elif moneda == 2:
-        print("agila")
+        print("the coin landed on", flip)
 
 
+        if guess == flip:
+            print("you Won")
+        else:
+            print("you lost")
+            attempts -= 1
+            print("Attempts left:", attempts)
 
 
 
