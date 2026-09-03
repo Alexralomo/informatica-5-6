@@ -1,12 +1,31 @@
 import random
 def main():
 
-    rando = random.randint(1, 6)
+    lasar = random.randint(1,100)
+
 
 
     name= input("what is your name?:").title().strip()
-    print(input(f"Well, {name}, I am thinking of a number between 1 and 100 Take a guess:"))
-    maquina = random.choice(rando)
+    peligro = input("pon tu dificultad amigo, Facil😁😁😁, Medio👾👾👾👾, demonio ultra dificil😈😈😈😈:").title().strip()
+    if peligro == "Facil":
+        print(f"Well, {name}, I am thinking of a number between 1 and 100 Take a guess:")
+    print()
+    print()
+    numeros = int(input("que numero piensas que es:"))
+
+    while numeros != lasar:
+
+        if numeros > lasar:
+            print("loco, el numero es muy alto🪜🪜🪜🪜🪜")
+        elif numeros < lasar:
+            print("loco, el numero es muy abajo🦴🦴🦴🦴")
+
+        numeros = int(input("elije otravez👀👀👀:" ))
+
+        if numeros == lasar:
+            print(" lo lograste loco🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆")
+
+
 
 
 
