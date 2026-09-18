@@ -2,8 +2,12 @@ def main():
 
     doctrine = ["FE", "Arepentimiento", "butisarse", "espiritu santo", "perseverar asta el fin"]
 
-    for i in doctrine:
-        print(doctrine[i])
+    for presempal in doctrine:
+        print(presempal)
+
+
+    
+
 
 
 if __name__ == "__main__":
