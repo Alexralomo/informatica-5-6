@@ -1,0 +1,5 @@
+Description for loop
+
+is a estructure to repit a struction in for to automatica
+ the descriptiom for loop is the sirquite to the ciclo
+  the for loop is the create to a siclo and is is repit the saiclo and the anoder nead a condition to funcionar
